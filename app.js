@@ -18,8 +18,8 @@ form.addEventListener("submit", e => {
 
 
 async function getUser(username) {
-    const responce = await fetch(APIURL + username)
-    const data = await responce.json()
+    const response = await fetch(APIURL + username)
+    const data = await response.json()
 
     createUser(data)
 
@@ -27,8 +27,8 @@ async function getUser(username) {
 }
 
 async function getRepos(username) {
-    const responce = await fetch(APIURL + username+ "/repos")
-    const data = await responce.json()
+    const response = await fetch(APIURL + username+ "/repos")
+    const data = await response.json()
 
     addReposToCard(data)
 }
