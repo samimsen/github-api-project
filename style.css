@@ -1,0 +1,47 @@
+body {
+    background-color: #161B22;
+    color: white;
+}
+
+#form {
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #161B22 ;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+#profile-image {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+    float:left;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin-right: 20px;
+}
+
+.btn {
+    margin: 5px;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: white;
+}
